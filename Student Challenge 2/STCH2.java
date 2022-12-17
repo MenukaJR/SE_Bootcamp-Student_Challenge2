@@ -1,3 +1,4 @@
+
 public class STCH2 {
     static String[] txtAR;
     static int i, score,count;
@@ -45,4 +46,4 @@ public class STCH2 {
     public static void main(String[] args) {
         InputString("{}[]");
     }
-}
+
