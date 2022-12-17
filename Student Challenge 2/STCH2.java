@@ -18,9 +18,17 @@ public class STCH2 {
 
                         char g = text.charAt(n);
 
-                        if (g == '}' || g == ']' || g == ')') {
+                        if (g == '}') {
                             System.out.println("Input Match !!");
-                            score = 0;
+                            
+                        } else {
+                            score++;
+                            System.out.println("Input Misatch !! Score: " + score + " char: " + g);
+                        }
+
+                        if (g == ']') {
+                            System.out.println("Input Match !!");
+                            
                         } else {
                             score++;
                             System.out.println("Input Misatch !! Score: " + score + " char: " + g);
@@ -34,6 +42,6 @@ public class STCH2 {
     }
 
     public static void main(String[] args) {
-        InputString("{fvffvfv]fvfv}");
+        InputString("{{}]}");
     }
 }
