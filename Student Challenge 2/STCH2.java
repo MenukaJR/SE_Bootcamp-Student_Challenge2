@@ -1,3 +1,4 @@
+
 public class STCH2 {
     static String[] txtAR;
     static int i = 0, score;
@@ -36,4 +37,4 @@ public class STCH2 {
     public static void main(String[] args) {
         InputString("{fvffvfv]fvfv}");
     }
-}
+
